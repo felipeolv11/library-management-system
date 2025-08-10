@@ -121,7 +121,7 @@ namespace Library
                             case 2:
                                 LibraryTag();
 
-                                if (books.Count > 0)
+                                if (books.Any(b => b.IsAvailable()))
                                 {
                                     Console.WriteLine("available books\n");
 
