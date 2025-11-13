@@ -1,46 +1,39 @@
-# 📚 Library  
+# Library Management
 
-> A simple **console-based Library Management System** built with **C#** and **SQLite**.
+A simple console-based library management system built with C# and SQLite. The project focuses on practicing OOP, CRUD operations, and data persistence using a lightweight local database.
 
 ![screenshot](./assets/screenshot1.png)
 
-![screenshot](./assets/screenshot2.png)
-
-![screenshot](./assets/screenshot3.png)
-
-## 📌 Note  
-
-A simple project made to improve my skills in object-oriented programming, data persistence, and CRUD logic in a console app using C#. Now, all data (books, users, and loans) is stored in a SQLite database, allowing permanent data storage between sessions.
 
 
-## 💡 Features  
+## Overview
 
-- Distinct user roles: **Customer** and **Employee**
-
-### 👤 Customer
-- View available books  
-- Borrow and return books  
-- View personal borrowing history  
-
-### 🧑‍💼 Employee
-- Add, remove, and edit book details  
-- View all books (including borrowed ones)  
-- View all customers and their borrowings  
-- Access borrowing history  
-
----
-
-## 🗃️ Database  
-
-- **SQLite** is used to store and manage all data.  
-- The database file (library.db) is automatically created and managed through the Database.cs class.  
-- Tables:
-  - Users
-  - Books
-  - BookLoans
+All data (books, users, and loans) is stored in a SQLite database, allowing the application to maintain information between sessions. The structure is straightforward and designed for learning and experimentation.
 
 
-## 🛠️ Built With  
+
+## Features
+
+Two user roles are available:
+
+
+
+#### Customer
+- View available books
+- Borrow and return books
+- View personal loan history
+
+
+
+#### Employee
+- Add, edit, and remove books
+- View all books, including borrowed ones
+- View customers and their active loans
+- Access full loan history
+
+
+
+## Technologies
 
 - C# (.NET)
 - SQLite
